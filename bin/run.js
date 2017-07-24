@@ -20,8 +20,9 @@ server.on('listening', function () {
                 logger.info(err);
                 logger.info('Error Connecting to Maya');
                 return;
+            } else {
+                logger.info('Maya-Time connected to Maya');
             }
-            //logger.info(res.body);
 
         });
 

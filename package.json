@@ -1,7 +1,7 @@
 {
-  "name": "maya-time",
+  "name": "maya-weather",
   "version": "1.0.0",
-  "description": "Time Microservice for 'Maya'",
+  "description": "Weather Microservice for 'Maya'",
   "main": "server/service.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,7 @@
   "author": "Dinesh Santhanem",
   "license": "ISC",
   "dependencies": {
+    "@google/maps": "^0.4.2",
     "express": "^4.15.3",
     "moment": "^2.18.1",
     "superagent": "^3.5.2",
